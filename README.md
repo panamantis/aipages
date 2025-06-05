@@ -2,6 +2,37 @@
 
 Add this bookmarklet to your bookmarks bar to [describe what it does].
 
+
+### Quick install
+Drag ➡️ <a href="javascript:(function(){alert('🍩')} )();" title="Drag me to your bookmarks">🍩 Donut Bookmarklet</a>
+
+
+<style>
+.bm-btn{
+  display:inline-block;
+  padding:6px 12px;
+  border:1px solid #555;
+  border-radius:4px;
+  background:#f7f7f7;
+  font:600 14px/1 sans-serif;
+  text-decoration:none;
+}
+</style>
+
+<a class="bm-btn"
+   href="javascript:(function(){alert('✅ Installed!')})();"
+   title="Drag me to your bookmarks">
+  ➕ Add Bookmarklet
+</a>
+
+
+<a href="javascript:(function(){eval(atob('YWxlcnQoIldvcmtzISIpOw=='))})();">
+  Drag Base64 Bookmarklet
+</a>
+
+
+
+
 1. Select the code below by clicking and dragging over it:
    ```javascript
    javascript:(function(){alert('Hello from your bookmarklet!');})();
